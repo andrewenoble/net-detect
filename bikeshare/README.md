@@ -1,10 +1,10 @@
-# Network Anomaly Detection and PCA
+# Network Anomaly Detection and PCA: Bike Share
 
 By [Andrew Noble](http://two.ucdavis.edu/~andrewnoble)
 
 ## About
 
-This repo contains Python files used to demonstrate the utility of a Principal Component Analysis (PCA) in the exploration of spatiotemporal data on UK measles outbreaks following World War II.  The data is [publicly available](http://ento.psu.edu/research/labs/ottar-bjornstad/ottar-lab-abstracts/tsir-analysis-of-measles-in-england-and-wales), and ```data``` contains a copy.  The Python code used to animate a portion of the outbreak data is contained in ```visualization``` along with all of the scripts used to generate the first three exploratory plots at the top of [this webpage](http://two.ucdavis.edu/~andrewnoble/measles.html).  All other plots on that webpage - the results of the PCA - were generated with the Python code in ```analysis```.
+This repo contains Python files used to demonstrate the utility of a Principal Component Analysis (PCA) in the exploration of spatiotemporal data on the San Francisco bike share program.  The data is [publicly available](http://www.bayareabikeshare.com/open-data).  ```Data``` only contains some general information on each of the 35 bike stations in San Francisco.  Another file (~1GB) will need to be downloaded by the user (see below).  Once both data files are in place, the Python script in ```data_filter``` can be run to extract data on the morning weekday commute.  The two Python scripts in ```vizualization``` generate the first three exploratory plots displayed benearth the bike station photo at the top of [this webpage](http://two.ucdavis.edu/~andrewnoble/measles.html).  All other plots on that webpage - the results of the PCA - were generated with the Python code in ```analysis```.
 
 ## Requirements
 
@@ -15,7 +15,12 @@ This repo contains Python files used to demonstrate the utility of a Principal C
 Clone the repo.
 ```
 git clone https://github.com/andrewenoble/net-detect.git
-cd net-detect/measles
+cd net-detect/bikeshare
+```
+Download additional data:  Open the Bay Area Bike Share [data repository](http://www.bayareabikeshare.com/open-data) and click ``YEAR 2 DATA``.  You will have the option to download ``babs_open_data_year_2.zip``.  Unzip and copy ``201508_status_data.csv`` (~1GB) into the ```data``` directory.  Filter the data to extract only the weekday morning commute data
+```
+cd data_filter
+python filter.py
 ```
 Run the python scripts in ```visualization``` and ```analysis``` to re-generate the animation and plots.  Running the scripts will overwrite the existing animation and plots.
 
