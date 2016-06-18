@@ -4,22 +4,22 @@ By [Andrew Noble](http://two.ucdavis.edu/~andrewnoble)
 
 ## About
 
-This repo contains the Python files used to demonstrate the utility of a Principal Component Analysis (PCA) as a simple and scalable first step in searching for anomalous behavior in large spatiotemporal data sets.  Two such data sets, one on the San Francisco bike share program and the other on UK measles outbreaks following World War II, are analyzed here.  Code in the ```bikeshare``` directory reproduces the results discussed on [this webpage](http://two.ucdavis.edu/~andrewnoble/bikeshare.html).  Code in the ```measles``` directory reproduces the results discussed on [this webpage](http://two.ucdavis.edu/~andrewnoble/measles.html).  Code in the ```util``` directory is used by both ```bikeshare``` and ```measles```.
+This repo contains Python files used to demonstrate the utility of a Principal Component Analysis (PCA) in the analysis of spatiotemporal data on UK measles outbreaks following World War II.  The data is [publicly available](http://ento.psu.edu/research/labs/ottar-bjornstad/ottar-lab-abstracts/tsir-analysis-of-measles-in-england-and-wales), and ```data``` contains a copy.  The Python code used to animate a portion of the outbreak data is contained in ```visualization``` along with all of the scripts used to generate the first three exploratory plots at the top of [this webpage](http://two.ucdavis.edu/~andrewnoble/measles.html).  All other plots on that webpage - the results of the PCA - were generated with the Python code in ```analysis```.
 
 ## Requirements
 
-* Python (numpy, scipy, pandas, pickle, cartopy, matplotlib, pylab)
+* Python (scipy, pandas, pickle, cartopy, matplotlib, pylab)
 
 ## Usage
 
 Clone the repo.
 ```
 git clone https://github.com/andrewenoble/net-detect.git
-cd net-detect
+cd net-detect/measles
 ```
-From the ```net-detect``` directory,  decend into either the ```measles``` or ```bikeshare``` directory.  Further usage instructions can be found there in another README.md file.
+Run the python scripts in ```visualization``` and ```analysis``` to re-generate the animation and plots.  Running the scripts will overwrite the existing animation and plots.
 
 ## Acknowledgements
 
-This works is support by an [NSF
+This work is support by an [NSF
 INSPIRE award](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1344187&amp;HistoricalAwards=false) from the National Science Foundation.  
