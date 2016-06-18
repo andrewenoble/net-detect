@@ -1,4 +1,4 @@
-# Network Anomaly Detection and PCA
+# Network Anomaly Detection and PCA:  UK Measles
 
 By [Andrew Noble](http://two.ucdavis.edu/~andrewnoble)
 
