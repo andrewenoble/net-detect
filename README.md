@@ -21,5 +21,5 @@ From the ```net-detect``` directory,  decend into either the ```measles``` or ``
 
 ## Acknowledgements
 
-This works is support by an [NSF
+This work is support by an [NSF
 INSPIRE award](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1344187&amp;HistoricalAwards=false) from the National Science Foundation.  
