@@ -17,8 +17,7 @@ Clone the repo.
 git clone https://github.com/andrewenoble/net-detect.git
 cd net-detect/measles
 ```
-Run the python scripts in ```visualization``` and ```analysis``` to re-generate the the UK measles outbreak animation [here](http://two.ucdavis.edu/~andrewnoble/research.html) and the plots [here](http://two.ucdavis.edu/~andrewnoble/measles.html).  Running the scripts will overwrite the existing animation and plots. Note that running these scripts will overwrite existing animations and plots. and 
-
+Run the python scripts in ```visualization``` and ```analysis``` to re-generate the the UK measles outbreak animation [here](http://two.ucdavis.edu/~andrewnoble/research.html) and the plots [here](http://two.ucdavis.edu/~andrewnoble/measles.html).  Note that running the scripts will overwrite the existing animation and plots.
 ## Acknowledgements
 
 This work is support by an [NSF
