@@ -22,7 +22,7 @@ Download additional data:  Open the Bay Area Bike Share [data repository](http:/
 cd data_filter
 python filter.py
 ```
-Run the python scripts in ```visualization``` and ```analysis``` to re-generate the UK measles outbreak animation [here](http://two.ucdavis.edu/~andrewnoble/research.html) and the plots [here](http://two.ucdavis.edu/~andrewnoble/bikeshare.html).  Finally, unning the scripts will overwrite the existing animation and plots.
+Finally, run the python scripts in ```visualization``` and ```analysis``` to re-generate the plots on  [this webpage](http://two.ucdavis.edu/~andrewnoble/bikeshare.html).  Note that running these scripts will overwrite existing animations and plots.the UK measles outbreak animation [here](http://two.ucdavis.edu/~andrewnoble/research.html) and 
 
 ## Acknowledgements
 
