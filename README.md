@@ -1,10 +1,10 @@
 # Network Anomaly Detection and PCA
 
-By [Andrew Noble](http://two.ucdavis.edu/~andrewnoble)
+By [Andrew Noble](http://andrewenoble.com)
 
 ## About
 
-This repo contains the Python files used to demonstrate the utility of a Principal Component Analysis (PCA) as a simple and scalable first step in searching for anomalous behavior in large spatiotemporal data sets.  Two such data sets, one on the San Francisco bike share program and the other on UK measles outbreaks following World War II, are analyzed here.  Code in the ```bikeshare``` directory reproduces the results discussed on [this webpage](http://two.ucdavis.edu/~andrewnoble/bikeshare.html).  Code in the ```measles``` directory reproduces the results discussed on [this webpage](http://two.ucdavis.edu/~andrewnoble/measles.html).  Code in the ```util``` directory is used by both ```bikeshare``` and ```measles```.
+This repo contains the Python files used to demonstrate the utility of a Principal Component Analysis (PCA) as a simple and scalable first step in searching for anomalous behavior in large spatiotemporal data sets.  Two such data sets, one on the San Francisco bike share program and the other on UK measles outbreaks following World War II, are analyzed here.  Code in the ```bikeshare``` directory reproduces the results discussed on [this webpage](http://andrewenoble.com/bikeshare.html).  Code in the ```measles``` directory reproduces the results discussed on [this webpage](http://andrewenoble.com/measles.html).  Code in the ```util``` directory is used by both ```bikeshare``` and ```measles```.
 
 ## Requirements
 
